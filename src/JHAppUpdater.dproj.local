@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.265,=C:\Users\HOME\OneDrive\문서\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.135,=C:\Users\HOME\OneDrive\문서\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.931,C:\Users\HOME\OneDrive\문서\Embarcadero\Studio\Projects\Project3.dproj=E:\pjh\dev\lang\delphi\Project\OOZY\AttendanceServerUpdater\OozyAttendanceUpdater.dproj</Transaction>
+    <Transaction>2026-10-22 09:45:35.015,E:\pjh\dev\lang\delphi\Project\RPA\AppUpdater\JHAppUpdater.dproj=E:\pjh\dev\lang\delphi\Project\OOZY\AttendanceServerUpdater\OozyAttendanceUpdater.dproj</Transaction>
+    <Transaction>2026-10-22 09:48:45.767,E:\pjh\dev\lang\delphi\Project\RPA\AppUpdater\JHApp.UpdaterCore.pas=E:\pjh\dev\lang\delphi\Project\OOZY\AttendanceServerUpdater\OozyAttendance.UpdaterCore.pas</Transaction>
+    <Transaction>2026-10-22 09:49:41.375,E:\pjh\dev\lang\delphi\Project\RPA\AppUpdater\JHAppUpdaterg.dproj=E:\pjh\dev\lang\delphi\Project\RPA\AppUpdater\JHAppUpdater.dproj</Transaction>
+    <Transaction>2026-10-22 09:50:37.524,E:\pjh\dev\lang\delphi\Project\RPA\AppUpdater\JHAppUpdater.dproj=E:\pjh\dev\lang\delphi\Project\RPA\AppUpdater\JHAppUpdaterg.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

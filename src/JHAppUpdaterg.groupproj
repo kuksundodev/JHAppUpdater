@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{92A93681-C990-4CE5-9BB6-E9818509D47B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="JHAppUpdater.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JHAppUpdaterGUI.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="JHAppUpdater">
+        <MSBuild Projects="JHAppUpdater.dproj"/>
+    </Target>
+    <Target Name="JHAppUpdater:Clean">
+        <MSBuild Projects="JHAppUpdater.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JHAppUpdater:Make">
+        <MSBuild Projects="JHAppUpdater.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JHAppUpdaterGUI">
+        <MSBuild Projects="JHAppUpdaterGUI.dproj"/>
+    </Target>
+    <Target Name="JHAppUpdaterGUI:Clean">
+        <MSBuild Projects="JHAppUpdaterGUI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JHAppUpdaterGUI:Make">
+        <MSBuild Projects="JHAppUpdaterGUI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="JHAppUpdater;JHAppUpdaterGUI"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="JHAppUpdater:Clean;JHAppUpdaterGUI:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="JHAppUpdater:Make;JHAppUpdaterGUI:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

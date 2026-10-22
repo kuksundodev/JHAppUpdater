@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2026-10-22 09:45:53.262,E:\pjh\dev\lang\delphi\Project\RPA\AppUpdater\JHAppUpdaterGUI.dproj=E:\pjh\dev\lang\delphi\Project\OOZY\AttendanceServerUpdater\OozyAttendanceUpdaterGui.dproj</Transaction>
+    <Transaction>2026-10-22 09:48:45.720,E:\pjh\dev\lang\delphi\Project\RPA\AppUpdater\JHApp.UpdaterCore.pas=E:\pjh\dev\lang\delphi\Project\OOZY\AttendanceServerUpdater\OozyAttendance.UpdaterCore.pas</Transaction>
+  </Transactions>
+</BorlandProject>
