@@ -3,7 +3,7 @@
 uses
   Vcl.Forms,
   JHApp.UpdaterCore in 'JHApp.UpdaterCore.pas',
-  OozyAttendance.UpdaterForm in '..\..\OOZY\AttendanceServerUpdater\OozyAttendance.UpdaterForm.pas';
+  JHApp.UpdaterForm in 'JHApp.UpdaterForm.pas';
 
 {$R *.res}
 
